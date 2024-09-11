@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-light py-2" >
+      <a class="navbar-brand " href="">Task Management</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     
+          <li class="nav-item">
+            <a class="nav-link " href="dashboard.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="newtask.html">Add tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="main.html">Logout</a>
+          </li>
+
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" >
+    <title>Dashboard HTML</title>
+</head>
+
+<header class="text-center py-3">
+    
+    <div>
+        <h1 class="text-capitalized">Welcome to the Management System </h1>
+        <p>Manage your task effectively and efficently</p>
+    
+
+
+    </div>
+</header>
+    
+<body>
+  
+    <div class="container col-md-12">
+      <center><a class="btn btn-primary py-2 mt-2 mb-4 text-center" href="#" role="button" > Add New Task </a></center>
+        <div class="content-panel">
+          
+            <table class="table table-striped table-advance table-hover">
+                    <h4><i class="fa fa-angle-right"></i> All Staff Details </h4>
+                    
+                <thead>
+                <tr>
+                    <th class="border">Titlle</th>
+                    <th class=" border hidden-phone">Description</th>
+                    <th class="border"> Due date</th>
+                    <th class="border"> status</th>
+                    <th class="border">action</th>
+                   
+                </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="border"></td>
+                        <td class="border"></td>
+                        <td class="border"></td>
+                        <td class="border"></td>
+                        <td>        
+                            <a href=""> 
+                            <button class="btn btn-warning btn-xs">Update</button></a>
+                            <a href=""> 
+                            <button class="btn btn-danger btn-xs">Delete</button></a>
+                         </td>
+                    </tr>
+                </tbody>
+                
+              
+                </table>
+
+        </div>
+    </div>
+
+
+
+<footer class="bg-dark fixed-bottom py-3">
+    <div class="container">
+        <p class="text-white text-center">@ 2024 Task Management System . All Right Reserved</p>
+
+    </div>
+</footer>
+</body>
+
+
+</html>
